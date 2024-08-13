@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.user{
+    padding:8px;
+    padding-left:13px;
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    margin:0;
+}
+.cart{
+    padding:8px;
+    padding-left:11px;
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    margin:0;
+}
+
+ul{
+    background-color:rgb(249, 221, 185);
+
+}
+.cartholder{
+    margin-left:10px;
+}
+
+.navigation-images img{
+    width:50px;
+    height:50px;
+    border-radius: 50%;    
+}
+
+.navigation-images{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content:space-between;
+    column-gap:5px;
+
+}
+.navigation-images li{
+    display:grid;
+    place-items:center;
+
+}
+.nav-item-details{
+    display:grid;
+    place-items: center;
+    padding:0;
+    margin:0;
+}
+.nav-item-details div{
+    padding:0;
+    margin:0;
+}
+.nav-link{
+    padding:0;
+    margin:0;
+    color:black;
+}
+.about{
+    display:grid;
+}
+
+
+.founder-content{
+    display:grid;
+    /* align-items: start; */
+    font-size: 24px;
+    
+}
+
+.founder-content p{
+    display:grid;
+    justify-items:center;
+    margin:0;
+}
+.logoimg{
+    z-index:-1;
+}
+.logo-content{
+    z-index:1;  
+    margin-top: -80px;    
+    font-weight: bold;
+}
+.about-text{
+    margin-top:12px;
+    font-size: 26px;
+}
+.first-column-about{
+    display:grid;
+    /* align-content:space-around; */
+}
+.about-coo p{
+    margin-bottom: 0;
+
+}
+
+@media screen and (max-width:792px){
+    .first_bar{
+        font-size: 10px;
+    }
+    .nav_bar{
+        font-size: 10px;;
+    }
+    .cs img{
+        height:200px;    
+    }
+    .about-img img{
+        width:100px;
+        height:100px;
+        border-radius:50%;
+    }
+    .about-text{
+        margin-top:8px;
+        font-size: 12px;
+    }
+    .founder-content{
+        display:grid;
+        font-size: 12px;
+        /* margin-top:-78px; */
+    }
+    .logo-content{
+        z-index:1; 
+        margin-top: -80px;    
+        font-weight: bold;
+        font-size: 8px;
+}
+    .founder-content p{
+        margin: 0;
+    }
+    .cartdetails{
+        margin-left: 5px;
+    }
+ 
+}
+
+
+
